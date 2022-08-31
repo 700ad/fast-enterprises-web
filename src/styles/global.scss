@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: 0px;
+  font-family: 'ABCNormal';
+  font-family: 'Coolvetica';
+  font-family: 'Helvetica Neue';
+  
+  
+
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
