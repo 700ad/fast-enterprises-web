@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import logo from "../images/logo.svg";
+import logo from "../images/logosmall.png";
 export default function Nav() {
   return (
     <>
@@ -8,8 +8,8 @@ export default function Nav() {
         <div className="flex items-center justify-between container mx-auto p-8">
           {/* <div className=" uppercase">AA Consultants</div> */}
           <div className="flex items-center">
-            <img src={logo} className=" w-10" />
-            <p className="text-xl uppercase ml-4">Consultants</p>
+            <img src={logo} className="h-8" />
+            {/* <p className="text-xl uppercase ml-4">Consultants</p> */}
           </div>
           <div className="flex md:hidden flex-col">
             <div className="w-8 mb-1 border-b border-white"></div>

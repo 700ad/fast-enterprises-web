@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../images/icon vertical.svg";
+import logo from "../images/llogo.png";
+// import logo from "../images/icon vertical.svg";
 import { Link } from "gatsby";
 
 export default function Footer() {
