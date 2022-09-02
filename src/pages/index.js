@@ -44,8 +44,8 @@ const IndexPage = () => {
         <Hero />
         <div className="w-screen h-screen"></div>
         <div className="w-screen h-screen">
-          <div className="grid grid-cols-12">
-            <div className="col-span-8 flex items-center justify-center bg-white h-screen">
+          <div className="grid md:grid-cols-12 grid-cols-1">
+            <div className="md:col-span-8 col-span-1 flex items-center justify-center bg-white h-screen">
               <div className=" w-7/12 flex flex-col items-start justify-start">
                 <p className=" text-blue-800 text-xl">
                   Empowering finance to move forward
@@ -65,12 +65,12 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-            <div className="col-span-4"></div>
+            <div className="md:col-span-4 col-span-1"></div>
           </div>
         </div>
         <div className="reative">
-          <div className="grid grid-cols-12">
-            <div className="col-span-8 flex items-center justify-center text-white sticky top-0 h-screen">
+          <div className="grid grid-cols-1 md:grid-cols-12">
+            <div className="md:col-span-8 col-span-1 flex items-center justify-center text-white sticky top-0 h-screen">
               <div className=" w-7/12 flex flex-col items-start justify-start">
                 <p className=" text-blue-800 text-xl">Where finance meets AI</p>
                 <h2 className="text-3xl mt-8">
@@ -83,7 +83,7 @@ const IndexPage = () => {
                 <p className="mt-8">Use our expertise to your advantage.</p>
               </div>
             </div>
-            <div className="col-span-4">
+            <div className="md:col-span-4 col-span-1 z-20">
               <div className="h-screen pt-32 flex flex-col items-center justify-start bg-gradient-to-b from-white to-gray-50">
                 <img src={auditImg} className=" w-3/12" />
                 <div className=" flex flex-col w-9/12 mt-8">
@@ -169,10 +169,10 @@ const IndexPage = () => {
                     <div className="px-4 py-2 my-2 mx-2 border rounded-xl border-blue-900 text-blue-900">
                       Risk Advisory
                     </div>
-                    <div className="px-4 py-2 my-2 mx-2 border rounded-xl border-blue-900 text-blue-900">
+                    {/* <div className="px-4 py-2 my-2 mx-2 border rounded-xl border-blue-900 text-blue-900">
                       Specialist Services
-                    </div>
-
+                    </div> */}
+                    {/* 
                     <div className="px-4 py-2 my-2 mx-2 border rounded-xl border-blue-900 text-blue-900">
                       Human Resource Consulting
                     </div>
@@ -185,7 +185,7 @@ const IndexPage = () => {
 
                     <div className="px-4 py-2 my-2 mx-2 border rounded-xl border-blue-900 text-blue-900">
                       Technology and Management Consulting
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -193,8 +193,8 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="w-screen h-screen">
-          <div className="grid grid-cols-12">
-            <div className="col-span-8 flex items-center justify-center  text-white h-screen">
+          <div className="grid grid-cols-1 md:grid-cols-12">
+            <div className="md:col-span-8 col-span-1 flex items-center justify-center  text-white h-screen">
               <div className=" w-7/12 flex flex-col items-start justify-start">
                 <p className=" text-blue-800 text-xl">Where finance meets AI</p>
                 <h2 className="text-3xl mt-8">
@@ -207,13 +207,13 @@ const IndexPage = () => {
                 <p className="mt-8">Use our expertise to your advantage.</p>
               </div>
             </div>
-            <div className="col-span-4"></div>
+            <div className="col-span-1 md:col-span-4"></div>
           </div>
         </div>
 
         <div className="w-screen relative h-screen">
-          <div className="grid grid-cols-12">
-            <div className="col-span-8 flex items-center justify-center bg-white h-screen">
+          <div className="grid grid-cols-1 md:grid-cols-12">
+            <div className="md:col-span-8 col-span-1 flex items-center justify-center bg-white h-screen">
               <div className=" w-7/12 flex flex-col items-start justify-start">
                 <p className=" text-blue-800 text-xl">Where finance meets AI</p>
                 <h2 className="text-3xl mt-8">
@@ -234,7 +234,7 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-            <div className="col-span-4"></div>
+            <div className="col-span-1 md:col-span-4"></div>
           </div>
         </div>
       </div>

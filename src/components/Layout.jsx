@@ -8,8 +8,8 @@ export default function Layout({ children }) {
     <div>
       <Nav />
       <main>{children}</main>
-      <div className="w-screen py-52 z-10 flex items-center justify-center">
-        <div className="container text-xl opacity-70 mx-auto text-white">
+      <div className="w-screen md:py-52 z-10 flex items-center justify-center">
+        <div className="container p-4 text-xl opacity-70 mx-auto text-white">
           <p>Legal - RSM Avais Hyder Liaquat Nauman</p>
           <p className="mt-8">
             RSM Avais Hyder Liaquat Nauman is a member of the RSM network and

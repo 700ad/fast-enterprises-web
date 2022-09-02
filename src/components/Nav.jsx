@@ -6,17 +6,15 @@ export default function Nav() {
     <>
       <nav className="w-screen text-white absolute z-30">
         <div className="flex items-center justify-between container mx-auto p-8">
-          {/* <div className=" uppercase">AA Consultants</div> */}
           <div className="flex items-center">
             <img src={logo} className="h-8" />
-            {/* <p className="text-xl uppercase ml-4">Consultants</p> */}
           </div>
           <div className="flex md:hidden flex-col">
             <div className="w-8 mb-1 border-b border-white"></div>
             <div className="w-8 mb-1 border-b border-white"></div>
             <div className="w-8 mb-1 border-b border-white"></div>
           </div>
-          <div className="flex items-center font-extralight justify-between">
+          <div className="md:flex hidden items-center font-extralight justify-between">
             <Link to="/" className="mx-8">
               Home
             </Link>

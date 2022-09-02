@@ -5,12 +5,12 @@ import { Link } from "gatsby";
 
 export default function Footer() {
   return (
-    <div className="relative z-20 h-half-vh w-screen grid grid-cols-12">
-      <div className="col-span-4 flex items-center justify-center">
+    <div className="relative z-20 h-half-vh w-screen grid grid-cols-1 md:grid-cols-12">
+      <div className="col-span-1 md:col-span-4 p-4 py-10 md:py-0 bg-indigo-900 md:bg-transparent flex items-center justify-center">
         <img src={logo} className="w-5/12" />
       </div>
-      <div className="bg-gradient-to-tl p-10 from-gray-100 to-white  flex flex-col items-start justify-between col-span-8">
-        <div className="grid grid-cols-3">
+      <div className="bg-gradient-to-tl md:p-10 p-4 from-gray-100 to-white  flex flex-col items-start justify-between col-span-1 md:col-span-8">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           <div className="col-span-1 flex items-start justify-center">
             <div className=" w-9/12 flex flex-col text-xl items-start">
               <Link className="my-2">Home</Link>
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 my-2 md:grid-cols-3">
           <div className="col-span-1 flex items-start justify-center">
             <div className=" w-9/12 flex flex-col items-start">
               <p className="mt-2">
@@ -88,13 +88,13 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="col-span-1 flex items-start justify-center">
+          <div className="col-span-1 my-2 flex items-start justify-center">
             <div className=" w-9/12 flex flex-col items-start">
               <Link>TERMS OF SERVICES</Link>
               <Link>PRIVACY POLICY</Link>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col items-center justify-start">
+          <div className="col-span-1 my-2 flex flex-col items-center justify-start">
             <div className=" w-9/12 flex flex-col items-start">
               <p className="mt-2">
                 DESIGNED AND DEVELOPED by{" "}
