@@ -34,8 +34,8 @@ export default function Footer() {
                 P-45 Khana House, Susan Rd. Madina Town Faisalabad, Punjab
                 Pakistan
               </Link>
-              <p className="mt-2">+92 300 795 4444</p>
-              <p className="mt-2 underline">hello@aaconsultants.info</p>
+              <p className="mt-2">+92 302 6396 001</p>
+              <p className="mt-2 underline">hello@fast-consultants.co</p>
             </div>
           </div>
           <div className="col-span-1 flex flex-col items-center justify-start">
